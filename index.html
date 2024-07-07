@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Drag & Drop</title>
+  </head>
+  <body>
+
+    <div class="overlay">
+      <section class="app-container">
+        <h1>Upload Image Here</h1>
+        <label for="input-file" id="drop-area" class="dragAndDrop">
+          <input type="file" id="input-file" accept="image/*" hidden />
+          <p>Drag & Drop or <span id="browse">Click to Browse</span></p>
+        </label>
+      </section>
+      <section class="file-list">
+      </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
